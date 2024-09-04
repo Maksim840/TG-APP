@@ -15,9 +15,9 @@ import { useTelegram } from './hooks/useTelegram';
 
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <Card/>
-      <button onClick ={onToggleButton}>toggle</button>
+      {/* <button onClick ={onToggleButton}>toggle</button> */}
     </div>
   );
 }
