@@ -1,6 +1,7 @@
 
 import { useEffect } from 'react';
 import './App.css';
+import Card from './components/Cards/card';
 import Header from './components/Header/header';
 import { useTelegram } from './hooks/useTelegram';
 
@@ -15,6 +16,7 @@ import { useTelegram } from './hooks/useTelegram';
   return (
     <div className="App">
       <Header/>
+      <Card/>
       <button onClick ={onToggleButton}>toggle</button>
     </div>
   );
